@@ -1,0 +1,146 @@
+Name: Youngwon Kim 
+CSE 160
+Homework 2
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file and your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+
+Before fixing a code:
+Sample1 - GC-content: 0.43029262963
+
+After fixing a code:
+Sample1 - GC-content: 0.430599870611
+
+Problem 3:
+
+a. An error occurs after commenting out "gc_count = 0". The error is caused by a nameerror which indicates that name "gc_count = 0" is not defined. Thus, the loop cannot work well when using "gc_count = 0".
+   
+Traceback (most recent call last):
+  File "dna_analysis.py", line 93, in <module>
+    gc_count = gc_count + 1
+NameError: name 'gc_count' is not defined
+
+b. This answer is very similary with previous answer (a). A name error occurs when commenting out "nucleotides = filename_to_string(filename)" because the name nucleotides is not defiend when running a loop below.
+ 
+Traceback (most recent call last):
+  File "dna_analysis.py", line 89, in <module>
+    for base in nucleotides:
+NameError: name 'nucleotides' is not defined
+
+Problem 4:
+
+Before fixing a code:
+Sample 1
+GC-content: 0.43029262963
+AT-content: 0.568993851852
+
+After fixing a code:
+Sample 1
+GC-content: 0.430599870611
+AT-content: 0.569400129389
+
+Problem 5:
+
+Before fixing a code:
+Sample 1
+GC-content: 0.43029262963
+AT-content: 0.568993851852
+G-count: 5738773
+C-count: 5879128
+A-count: 7701287
+T-count: 7661547
+
+
+After fixing a code:
+Sample 1
+GC-content: 0.430599870611
+AT-content: 0.569400129389
+G-count: 5738773
+C-count: 5879128
+A-count: 7701287
+T-count: 7661547
+
+Problem 6:
+
+Sample 1
+Sum of G+C+A+T: 26980735
+Total count: 27000000
+Length of nucleotides: 27000000
+
+Sample 2
+Sum of G+C+A+T 26977435
+Total count: 27000000
+Length of nucleotides: 27000000
+
+Sample 3
+Sum of G+C+A+T 9510883
+Total count: 9510928
+Length of nucleotides: 9510928
+
+Sample 4
+Sum of G+C+A+T 9980961
+Total count: 9981008
+Length of nucleotides: 9981008
+
+Sample 5
+Sum of G+C+A+T 75
+Total count: 76
+Length of nucleotides: 76
+
+Sample 6
+Sum of G+C+A+T 26990
+Total count: 27000
+Length of nucleotides: 27000
+
+test-high-gc-1
+Sum of G+C+A+T 39840
+Total count: 40000
+Length of nucleotides: 40000
+
+test-high-gc-2
+Sum of G+C+A+T 39841
+Total count: 40000
+Length of nucleotides: 40000
+
+test-moderate-gc-1
+Sum of G+C+A+T 39841
+Total count: 40000
+Length of nucleotides: 40000
+
+test-moderate-gc-2
+Sum of G+C+A+T 39811
+Total count: 40000
+Length of nucleotides: 40000
+
+All ".fastq" files may include not only G, C, A, and T nucleotides, but also other types of nucleotides. Thus, there are dffierences between "Sum of G+C+A+T" and "Total count"/"Length of nucleotides".
+
+In addition, when computing GC content, we need to use "Sum of G+C+A+T", not "Total count" and "Length of nucleotides" because this gives us more exact the GC countent. 
+
+Therefore, my program incorrecticly computed the GC_content as well as AT content because my program used "Total count" as a denominator. 
+
+Problem 7:
+
+Sample 1
+AT/GC Ratio: 1.32234161747
+
+Problem 8:
+
+Sample 1
+GC-content: 0.430599870611
+GC Classification: moderate
+
+Collaboration:
+
+(NA)
+

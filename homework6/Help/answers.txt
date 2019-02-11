@@ -1,0 +1,20 @@
+Name: Jeewon Ha
+CSE 160
+Homework 6
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+Answer to Problem 7:
+
+The data suggest that I can reject the null hypothesis; the Iranian election results were fraudulent. The null hypothesis rejection level(p) of 2009 Iranian election was over 0.95 on average, which is much higher than the threshold for statistical significance, p = 0.05; the higher p is, the more faudulent data. This means that more than 95% of genuine elections were as different from the uniform distribution as the Iranian election was: 95% confident that the data are fraudulent.
+
+Answer to Problem 8:
+
+The results tell that I cannot reject the null hypothesis; US election was not fraudulent. The null hypothesis rejection level(p) of 2008 US election was around 0.05 on average, which is very close to the threshold for statistical significance, p = 0.05. This means only about 5% of genuine elections were as different from the uniform distribution as the US electionw was; only 5% confident that the data are fraudulent. 
+
+Collaboration:
+
+I completed this homework without anyone's help.
+

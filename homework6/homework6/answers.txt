@@ -1,0 +1,21 @@
+Name: ...
+CSE 160
+Homework 6
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+Answer to Problem 7:
+
+...
+
+Answer to Problem 8:
+
+...
+
+Collaboration:
+
+...
+
+

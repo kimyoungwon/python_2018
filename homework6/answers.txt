@@ -1,0 +1,19 @@
+Name: .Youngwon Kim
+CSE 160
+Homework 6
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+Answer to Problem 7:
+
+About 9600 of the random MSEs were smaller than the Iranian election MSE and therefore about 400 were larger or equal than than the Iranian election MSE. This indicates that only about 4% of genuine elections would be as different from the uniform distribution as the Iranian election was. Given that, it is highly unlikely that the Iranian election was genuine, so we say that we are 96% confident that the data are fraudulent. More precisely, we can say that “we reject the null hypothesis at the p = 4 level”.
+
+Answer to Problem 8:
+
+Approximately 5100 of the random MSEs were smaller than the US election MSE and therefore approximately 4900 were larger or equal. This means that around 49% of genuine elections were as different from the uniform distribution as the US election was. Therefore, it is likely that the US election was genuine, so we say that we are 51% confident that the data are fraudulent. This is not surprising at all;  it provides no evidence regarding the null hypothesis.
+
+Collaboration:
+
+...
